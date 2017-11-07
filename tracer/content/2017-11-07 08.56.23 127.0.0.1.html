@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<h3> Trace:127.0.0.1</h3>
+<style>
+	table {
+		max-width: 100%;
+		min-width: 20%;
+		border-style: solid;
+		border: 2px solid grey;
+		font-family: sans-serif;
+		font-size:15px;
+		background:#C0C0C0;
+		color: white;
+		font-weight:bold;
+	}
+	td, th {
+		min-width: 5px;
+		height: 20px;
+		text-align: center;
+		border: 1px solid grey;
+	}
+	li {
+		width: 2em;
+		height: 2em;
+		text-align: center;
+		line-height: 2em;
+		border-radius: 1em;
+		background: dodgerblue;
+		margin: 0 1em;
+		display: inline-block;
+		color: white;
+		position: relative;
+	}
+	li::before{
+		content:"";
+		position: absolute;
+		top: .9em;
+		left: -4em;
+		width: 4em;
+		height: .2em;
+		background: grey;
+		z-index: -1;
+	}
+	li:first-child::before {
+		display: none;
+	}
+	.OK {
+		background: green;
+	}
+	.ERROR{
+		background: red;
+	}
+	body {
+		font-family: sans-serif;
+		padding: 2em;
+	}
+</style>
+</head>
+<body>
+	<ul>
+		<li class="OK">1</li>
+	</ul>
+	</br>
+	</br>
+	<table>
+		<tr>
+			<td>HOP</td>
+			<td>HOST</td>
+			<td>MAX RESPONSE</td>
+		</tr>
+		<tr>
+			<td class="OK">1</td>
+			<td class="OK">ip address</td>
+			<td class="OK"><1</td>
+		</tr>
+	<table>
+</body>
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<h3> Trace:www.google.com</h3>
+<style>
+	table {
+		max-width: 100%;
+		min-width: 20%;
+		border-style: solid;
+		border: 2px solid grey;
+		font-family: sans-serif;
+		font-size:15px;
+		background:#C0C0C0;
+		color: white;
+		font-weight:bold;
+	}
+	td, th {
+		min-width: 5px;
+		height: 20px;
+		text-align: center;
+		border: 1px solid grey;
+	}
+	li {
+		width: 2em;
+		height: 2em;
+		text-align: center;
+		line-height: 2em;
+		border-radius: 1em;
+		background: dodgerblue;
+		margin: 0 1em;
+		display: inline-block;
+		color: white;
+		position: relative;
+	}
+	li::before{
+		content:"";
+		position: absolute;
+		top: .9em;
+		left: -4em;
+		width: 4em;
+		height: .2em;
+		background: grey;
+		z-index: -1;
+	}
+	li:first-child::before {
+		display: none;
+	}
+	.OK {
+		background: green;
+	}
+	.ERROR{
+		background: red;
+	}
+	body {
+		font-family: sans-serif;
+		padding: 2em;
+	}
+</style>
+</head>
+<body>
+	<ul>
+		<li class="ERROR">1</li>
+		<li class="OK">2</li>
+		<li class="OK">3</li>
+		<li class="ERROR">4</li>
+		<li class="ERROR">5</li>
+		<li class="ERROR">6</li>
+		<li class="ERROR">7</li>
+		<li class="ERROR">8</li>
+		<li class="OK">9</li>
+		<li class="OK">10</li>
+		<li class="OK">11</li>
+		<li class="ERROR">12</li>
+		<li class="ERROR">13</li>
+		<li class="OK">14</li>
+	</ul>
+	</br>
+	</br>
+	<table>
+		<tr>
+			<td>HOP</td>
+			<td>HOST</td>
+			<td>MAX RESPONSE</td>
+		</tr>
+		<tr>
+			<td class="ERROR">1</td>
+			<td class="ERROR">ip address</td>
+			<td class="ERROR">22</td>
+		</tr>
+		<tr>
+			<td class="OK">2</td>
+			<td class="OK">ip address</td>
+			<td class="OK">2</td>
+		</tr>
+		<tr>
+			<td class="OK">3</td>
+			<td class="OK">ip address</td>
+			<td class="OK">1</td>
+		</tr>
+		<tr>
+			<td class="ERROR">4</td>
+			<td class="ERROR">ip address</td>
+			<td class="ERROR">7</td>
+		</tr>
+		<tr>
+			<td class="ERROR">5</td>
+			<td class="ERROR">ip address</td>
+			<td class="ERROR">7</td>
+		</tr>
+		<tr>
+			<td class="ERROR">6</td>
+			<td class="ERROR">ip address</td>
+			<td class="ERROR">7</td>
+		</tr>
+		<tr>
+			<td class="ERROR">7</td>
+			<td class="ERROR">ip address</td>
+			<td class="ERROR">4</td>
+		</tr>
+		<tr>
+			<td class="ERROR">8</td>
+			<td class="ERROR">ip address</td>
+			<td class="ERROR">5</td>
+		</tr>
+		<tr>
+			<td class="OK">9</td>
+			<td class="OK">ip address</td>
+			<td class="OK">2</td>
+		</tr>
+		<tr>
+			<td class="OK">10</td>
+			<td class="OK">ip address</td>
+			<td class="OK">2</td>
+		</tr>
+		<tr>
+			<td class="OK">11</td>
+			<td class="OK">ip address</td>
+			<td class="OK">2</td>
+		</tr>
+		<tr>
+			<td class="ERROR">12</td>
+			<td class="ERROR">ip address</td>
+			<td class="ERROR">23</td>
+		</tr>
+		<tr>
+			<td class="ERROR">13</td>
+			<td class="ERROR">ip address</td>
+			<td class="ERROR">6</td>
+		</tr>
+		<tr>
+			<td class="OK">14</td>
+			<td class="OK">ip address</td>
+			<td class="OK">2</td>
+		</tr>
+	<table>
+</body>
+</html>
