@@ -26,12 +26,12 @@ Options:
 # Examples
 Trace -d www.google.com -r 5
 			
-![Google ath Trace](https://github.com/henrystockza/python/blob/master/tracer/content/Example1.PNG")
+![Google trace](https://github.com/henrystockza/python/blob/master/tracer/content/Example1.PNG "Google Trace")
 
 
 Trace -d 127.0.0.1 -r 5
 			
-![Local host trace](https://github.com/henrystockza/python/blob/master/tracer/content/Example2.PNG")
+![Local trace]("https://github.com/henrystockza/python/blob/master/tracer/content/Example2.PNG "Local Trace")
 
 # LICENSE
 
