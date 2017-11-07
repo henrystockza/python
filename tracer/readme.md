@@ -31,7 +31,7 @@ Trace -d www.google.com -r 5
 
 Trace -d 127.0.0.1 -r 5
 			
-![Local trace]("https://github.com/henrystockza/python/blob/master/tracer/content/Example2.PNG "Local Trace")
+![Local trace](https://github.com/henrystockza/python/blob/master/tracer/content/Example2.PNG "Local Trace")
 
 # LICENSE
 
