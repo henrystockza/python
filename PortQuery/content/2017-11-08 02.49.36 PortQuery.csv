@@ -1,0 +1,5 @@
+GivenName, IP, DNSName, Port, PortType, Status
+www.google.com,216.58.223.4,jnb01s07-in-f4.1e100.net,445,TCP,CLOSED
+www.google.com,216.58.223.4,jnb01s07-in-f4.1e100.net,445,UDP,CLOSED
+www.google.com,216.58.223.4,jnb01s07-in-f4.1e100.net,80,TCP,CLOSED
+www.google.com,216.58.223.4,jnb01s07-in-f4.1e100.net,80,UDP,CLOSED

@@ -1,0 +1,34 @@
+{
+	"payload": {
+		"query": [
+			{
+			"IP":"www.google.com",
+			"DNSName":"216.58.223.4",
+			"Port":"jnb01s07-in-f4.1e100.net",
+			"PortType":"445",
+			"Status":"TCP"
+			},
+			{
+			"IP":"www.google.com",
+			"DNSName":"216.58.223.4",
+			"Port":"jnb01s07-in-f4.1e100.net",
+			"PortType":"445",
+			"Status":"TCP"
+			},
+			{
+			"IP":"www.google.com",
+			"DNSName":"216.58.223.4",
+			"Port":"jnb01s07-in-f4.1e100.net",
+			"PortType":"445",
+			"Status":"TCP"
+			},
+			{
+			"IP":"www.google.com",
+			"DNSName":"216.58.223.4",
+			"Port":"jnb01s07-in-f4.1e100.net",
+			"PortType":"445",
+			"Status":"TCP"
+			}
+		]
+	}
+}
