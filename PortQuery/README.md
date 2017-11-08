@@ -4,11 +4,15 @@ Export to screen, csv, html, xml, json
 
 #Example
 
-Print to Screen
+![Print Screen](https://github.com/henrystockza/python/blob/master/PortQuery/content/screen.PNG "Print Screen")
 
-Export CSV
-Export XML
-Export Json
+
+![Export CSV](https://github.com/henrystockza/python/blob/master/PortQuery/content/2017-11-08%2002.49.36%20PortQuery.csv "Export CSV")
+
+![Export XML](https://github.com/henrystockza/python/blob/master/PortQuery/content/2017-11-08%2002.49.36%20PortQuery.xml "Export XML")
+
+![Export JSON](https://github.com/henrystockza/python/blob/master/PortQuery/content/2017-11-08%2002.49.36%20PortQuery.json "Export JSON")
+
 
 # Usage
                 portquery -d www.google.com -p 80
