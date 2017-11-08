@@ -3,7 +3,7 @@
 A simple python multi-os wrapper for Traceroute / Tracert (NetTrace) with a visual output.
 Multithread enabled with the ability to variate on what your max reponse time should be alerted on.
 
-# Useage
+# Usage
         Trace -d www.google.com,www.new24.com,127.0.0.1
         Trace -d www.google.com -r 300
         Trace -d www.google.com -r 300 -l /tmp -f google.html
